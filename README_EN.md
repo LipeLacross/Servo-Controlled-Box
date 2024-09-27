@@ -13,7 +13,8 @@ This project involves creating an automated box that opens and closes using a se
 ### Visual Example of the Project
 
 ![Project in Action](https://github.com/user-attachments/assets/a7c4c8c5-693b-47a1-8e61-a985fe2773d2)
-![Integrated Hinge Box](IntegratedHingeBox.jpg)
+
+<img src="IntegratedHingeBox.jpg" alt="Integrated Hinge Box" style="max-width: 400px; width: 100%;">
 
 ## ✔️ Techniques and Technologies Used
 - **Arduino IDE**: For programming the Arduino.
@@ -31,27 +32,27 @@ This project involves creating an automated box that opens and closes using a se
 To start the project locally, follow the steps below:
 
 1. **Make sure the Arduino IDE is installed**:
-    - The [Arduino IDE](https://www.arduino.cc/en/software) is required to run the project. You can download it from the official website.
+   - The [Arduino IDE](https://www.arduino.cc/en/software) is required to run the project. You can download it from the official website.
 
 2. **Clone the Repository**:
-    - Copy the repository URL and run the command below in the terminal:
+   - Copy the repository URL and run the command below in the terminal:
 
-      ```bash
-      git clone <REPOSITORY_URL>
-      ```
+     ```bash
+     git clone <REPOSITORY_URL>
+     ```
 
 3. **Install the Required Libraries**:
-    - Open the Arduino IDE and go to `Sketch` -> `Include Library` -> `Manage Libraries...`.
-    - Search for and install the `Servo` and `NewPing` libraries.
+   - Open the Arduino IDE and go to `Sketch` -> `Include Library` -> `Manage Libraries...`.
+   - Search for and install the `Servo` and `NewPing` libraries.
 
 4. **Upload the Code to the Arduino**:
-    - Open the `main.c` file in the Arduino IDE, connect your Arduino, and upload the code.
+   - Open the `main.c` file in the Arduino IDE, connect your Arduino, and upload the code.
 
 5. **Connect the Hardware Components**:
-    - Connect the servo motor and the ultrasonic sensor to the pins specified in the code (`trigPin` and `echoPin`).
+   - Connect the servo motor and the ultrasonic sensor to the pins specified in the code (`trigPin` and `echoPin`).
 
 6. **Test the Project**:
-    - Power the Arduino and observe the automatic opening and closing of the box when an object is detected within 50 cm.
+   - Power the Arduino and observe the automatic opening and closing of the box when an object is detected within 50 cm.
 
 ## 🌐 Deploy
 This project can be used in applications that require automated interaction with objects, such as storage devices or delivery systems.

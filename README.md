@@ -13,7 +13,8 @@ Este projeto envolve a criação de uma caixa automatizada que abre e fecha usan
 ### Exemplo Visual do Projeto
 
 ![Projeto em Execução](https://github.com/user-attachments/assets/a7c4c8c5-693b-47a1-8e61-a985fe2773d2)
-![Integrated Hinge Box](IntegratedHingeBox.jpg)
+
+<img src="IntegratedHingeBox.jpg" alt="Integrated Hinge Box" style="max-width: 400px; width: 100%;">
 
 ## ✔️ Técnicas e Tecnologias Utilizadas
 - **Arduino IDE**: Para programação do Arduino.
